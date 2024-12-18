@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #112D4E;
+    height: 60px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 16px;
+
+    position: fixed;
+    top: 0;
+}
+
+nav a {
+    color: #F9F7F7;
+    text-decoration: none;
+}
+
+header {
+    height: 100vh;
+
+    background-image: url("bg1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 120px;
+    color: #112D4E;
+}
+
+.zajezdy {
+    height: 50vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 16px;
+}
+
+.zajezdy img {
+    width: 160px;
+    border-radius: 16px;
+}
+
+.box {
+    height: 300px;
+    width: 250px;
+    padding: 16px;
+
+    color:#F9F7F7 ;
+
+    background-color: #3F72AF;
+    border-radius: 16px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+    gap: 16px;
+}
+
+.recenze {
+    background-color: #112D4E;
+    color: #F9F7F7;
+    height: 60vh;
+    padding: 0 10%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recenze img {
+    width: 300px;
+    border-radius: 50%;
+}
+
+.recenze .layout {
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+    gap: 16px;
+}
+
+.recenze .layout div {
+    width: 100%;
+    font-size: 42px;
+}
+
+.kontakt {
+    height: 60vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kontakt form {
+    background-color: #112D4E;
+
+    height: 400px;
+    width: 300px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+
+    /* height: 400px;
+    width: 300px;
+    border-radius: 16px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+    gap: 16px; */
+}
+
+.kontakt form h3 {
+    color: #F9F7F7;
+}
+
+footer {
+    height: 10vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
